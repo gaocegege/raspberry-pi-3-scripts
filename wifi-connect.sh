@@ -2,8 +2,6 @@
 
 USAGE="./wifi-connect.sh <ESSID> <PWD>"
 
-echo "$#"
-
 if [[ "$#" -ne 2 ]]; then
 	echo ${USAGE}
 	exit 0
